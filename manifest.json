@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Notenänderer",
+    "version": "1.1",
+    "description": "Ändert die Noten auf der Schulnetzseite.",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["*://*.schulnetz.lu.ch/*"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "128": "logo/logo128.png",
+        "32": "logo/logo32.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*.schulnetz.lu.ch/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
