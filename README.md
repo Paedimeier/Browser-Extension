@@ -11,6 +11,9 @@ This is a **Chrome browser extension** designed to be used on the **Schulnetz we
 - **Save Changes**: Use the **Save Checkbox** to ensure grades are automatically adjusted whenever you reopen the website.
 - **User-Friendly Interface**: Includes an interactive range slider and simple controls.
 
+
+![image](https://github.com/user-attachments/assets/0fdfdb12-dc7c-4f93-80d4-26b47deb5313)
+
 ---
 
 ## Installation Guide
